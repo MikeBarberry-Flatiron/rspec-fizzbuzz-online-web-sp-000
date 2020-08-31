@@ -11,7 +11,7 @@ end
 elseif int % 3 == 0 && int % 5 == 0
   puts "FizzBuzz"
 else
-  puts
+  puts nil 
 end
 
 fizzbuzz(3)
