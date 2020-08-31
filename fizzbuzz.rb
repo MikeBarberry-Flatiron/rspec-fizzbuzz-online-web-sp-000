@@ -10,3 +10,7 @@ def fizzbuzz(int)
     "Buzz"
   end
 end
+
+x = 3
+
+puts x.class 
