@@ -10,10 +10,10 @@ def fizzbuzz(int)
   end
   elsif int % 3 == 0 && int % 5 == 0
   puts "FizzBuzz"
-  end 
+  end
   else
   puts nil
   end
-end 
+end
 
 fizzbuzz(15)
