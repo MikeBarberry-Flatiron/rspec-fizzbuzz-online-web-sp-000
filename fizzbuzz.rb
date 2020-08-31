@@ -7,11 +7,11 @@ def fizzbuzz(int)
   end
 elseif int % 5 == 0
   puts "Buzz"
-end 
-elseif int % 3 == 0 && int % 5 == 0 
+end
+elseif int % 3 == 0 && int % 5 == 0
   puts "FizzBuzz"
-else 
-  puts 
+else
+  puts
 end
 
 fizzbuzz(3)
