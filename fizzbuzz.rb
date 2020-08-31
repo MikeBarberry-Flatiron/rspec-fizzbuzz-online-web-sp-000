@@ -10,8 +10,10 @@ elseif int % 5 == 0
 end
 elseif int % 3 == 0 && int % 5 == 0
   puts "FizzBuzz"
+end 
 else
   puts nil
 end
+end 
 
 fizzbuzz(15)
